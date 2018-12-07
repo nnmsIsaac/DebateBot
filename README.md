@@ -29,7 +29,7 @@ Here's how you should set it up:
 
 ### Getting the Code
 - Clone this repo into a folder labeled `Debate Bot` or `Debate Code` or something else that makes sense. 
-- In the folder, add a `.env` file using your favorite text editor. It should look like this: `DISCORD_BOT_SECRET=`. We'll add a the bot's token here later on.
+- In the project folder, add a `.env` file using your favorite text editor. The contents of `.env` should look exactly like this for now: `DISCORD_BOT_SECRET=`. We'll add a the bot's token here later on.
 
 ### Setting up Discord
 - Make a Discord account if you don't already have one.
