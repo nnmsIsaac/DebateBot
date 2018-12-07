@@ -17,7 +17,7 @@ After finishing this project I've concluded that:
 - JS can actually be useful
 
 But hey, at least I've got a working bot. 
-Given that this is my first time working with JS in a while, please forgive any of my bad practices. 
+(Please excuse any bad programming practices.)
 
 ## Installation
 Here's how you should set it up:
