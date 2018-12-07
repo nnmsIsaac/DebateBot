@@ -53,7 +53,7 @@ Here's how you should set it up:
 - Create Leaderboard
 
 ## Credit
-The majority of this code is mine, although I did follow [this tutorial][https://www.codementor.io/garethdwyer/building-a-discord-bot-with-node-js-and-repl-it-mm46r1u8y] to get started.
+The majority of this code is mine, although I did follow [this tutorial](https://www.codementor.io/garethdwyer/building-a-discord-bot-with-node-js-and-repl-it-mm46r1u8y) to get started.
 
 ## Notes
 Please open an issue if there is any problem with the bot itself. 
