@@ -40,7 +40,10 @@ Here's how you should set it up:
 - Get your bot's token, and add it to your `.env` file. Your `.env` file should now look like `DISCORD_BOT_SECRET=XXXX`, where `XXXX` is your bot's token. Remember, there shouldn't be any whitespace around the `=`.- Invite your bot to your server by going to this link: `scope=bot&client_id=XXXX` where `XXXX` is your Discord app's client ID. (Not to be confused with your bot's token)
 
 ### Running the Whole Shebang
-- After copleting the steps above, go to your project folder and enter `node index.js`. This will run the bot. If everything is working, you should see `Successful Login` followed by `My username is 'XXXX'` (where `XXXX` is the username of the bot). 
+- After copleting the steps above, open shell and go to th project folder. Enter `node index.js` to run the bot. If everything is working, you should see `Successful Login` followed by `My username is 'XXXX'` (where `XXXX` is the username of the bot). 
+- In your discord server, try typing in `!ping` to check if the bot is online, then join a VC channel and enter `!debate` to start the bot's main feautre. 
+- You can check your stats by entering `!stats`.
+- You can use `!help` for some help.
 - You might have to fiddle with the code or install some extra dependencies depending on your system. 
 
 ## TODO
