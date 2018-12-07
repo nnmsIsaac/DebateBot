@@ -2,6 +2,7 @@
 This is a Discord Bot written in JS that monitors voice channels and records statistics about them. 
 
 ## Background
+Someone approached me and asked me to make a Discord Bot that records stats about Discord Voice Channels (VCs)
 After figuring out that Discord.py (the Python Discord API) didn't support most VC features, I switched to Discord.js, (the JavaScript Discord API). 
 This was a bit hard for me on two fronts: a) I haven't ever worked with Node.js, b) and I'm not that familiar with JS. 
 (In fact, this was actually my first time working on a project mainly built in JS.) 
