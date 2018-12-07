@@ -34,7 +34,7 @@ Here's how you should set it up:
 
 ### Setting up Discord
 - Make a Discord account if you don't already have one.
-- Make a server to add this bot to (if you don't already have one). This bot is designeed manage one server at a time.
+- Make a server to add this bot to (if you don't already have one). This bot is designeed work with one server at a time.
 - Go to the `Discord Developer Portal` and make a new app. 
 - Add a bot to your Discord app. 
 - Get your bot's token, and add it to your `.env` file. Your `.env` file should now look like `DISCORD_BOT_SECRET=XXXX`, where `XXXX` is your bot's token. Remember, there shouldn't be any whitespace around the `=`.- Invite your bot to your server by going to this link: `scope=bot&client_id=XXXX` where `XXXX` is your Discord app's client ID. (Not to be confused with your bot's token)
