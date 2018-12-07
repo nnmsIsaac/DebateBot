@@ -23,7 +23,7 @@ But hey, at least I've got a working bot.
 Here's how you should set it up:
 
 ### Machine Prerequisites
-- Set up a VPS or a code-hosting site - This is a Discord bot, so if you want it to be constantly running, you need somewhere to run it while you're offline.
+- Set up a VPS or something similar - This is a Discord bot, so if you want it to be constantly running, you need somewhere to run it while you're offline.
 - Install Node and NPM. You need to install `Discord.js`. (`npm install discord.js` should work just fine)
 - Install FFMPEG. This is important! If on a linux-based system, `sudo apt-get install ffmpeg` should do the trick.
 
