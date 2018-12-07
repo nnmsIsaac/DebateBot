@@ -65,7 +65,6 @@ client.on('message', msg => {
 		} else {
 		interruptions = stats[user]['interruptions'];
 		timeSpeaking = stats[user]['timeSpeaking'];
-		msg.channel.send(`$`);
 		msg.channel.send(`You've spoken in VC a total of ${timeSpeaking} minutes \nYou've interrupted others a total of ${interruptions} times.`)
 			.catch(error => {
 				console.log(error);
