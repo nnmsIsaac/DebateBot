@@ -37,7 +37,8 @@ Here's how you should set it up:
 - Make a server to add this bot to (if you don't already have one). This bot is designeed work with one server at a time.
 - Go to the `Discord Developer Portal` and make a new app. 
 - Add a bot to your Discord app. 
-- Get your bot's token, and add it to your `.env` file. Your `.env` file should now look like `DISCORD_BOT_SECRET=XXXX`, where `XXXX` is your bot's token. Remember, there shouldn't be any whitespace around the `=`.- Invite your bot to your server by going to this link: `scope=bot&client_id=XXXX` where `XXXX` is your Discord app's client ID. (Not to be confused with your bot's token)
+- Get your bot's token, and add it to your `.env` file. Your `.env` file should now look like `DISCORD_BOT_SECRET=XXXX`, where `XXXX` is your bot's token. Remember, there shouldn't be any whitespace around the `=`.
+- Invite your bot to your server by going to this link: `scope=bot&client_id=XXXX` where `XXXX` is your Discord app's client ID. (Not to be confused with your bot's token)
 
 ### Running the Whole Shebang
 - After copleting the steps above, open shell and go to th project folder. Enter `node index.js` to run the bot. If everything is working, you should see `Successful Login` followed by `My username is 'XXXX'` (where `XXXX` is the username of the bot). 
