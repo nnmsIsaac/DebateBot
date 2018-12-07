@@ -1,5 +1,5 @@
 # Debate Bot
-This is a Discord Bot written in JS that monitors voice channels and records statistics about them. 
+This is a **Discord Bot written in JS** that **monitors Discord Voice Channels** and **records statistics** about them. 
 
 ## Background
 Someone approached me and asked me to make a Discord Bot that records stats about Discord Voice Channels (VCs).
@@ -25,7 +25,7 @@ Here's how you should set it up:
 ### Machine Prerequisites
 - Set up a VPS or something similar - This is a Discord bot, so if you want it to be constantly running, you need somewhere to run it while you're offline.
 - Install Node and NPM. You need to install `Discord.js`. (`npm install discord.js` should work just fine)
-- Install FFMPEG. This is important! If on a linux-based system, `sudo apt-get install ffmpeg` should do the trick.
+- Install `FFMPEG`. This is important! If on a linux-based system, `sudo apt-get install ffmpeg` should do the trick.
 
 ### Getting the Code
 - Clone this repo into a folder labeled `Debate Bot` or `Debate Code` or something else that makes sense. 
@@ -39,7 +39,7 @@ Here's how you should set it up:
 - Get your bot's token, and add it to your `.env` file. Your `.env` file should now look like `DISCORD_BOT_SECRET=XXXX`, where `XXXX` is your bot's token. Remember, there shouldn't be any whitespace around the `=`.- Invite your bot to your server by going to this link: `scope=bot&client_id=XXXX` where `XXXX` is your Discord app's client ID. (Not to be confused with your bot's token)
 
 ### Running the Whole Shebang
-- After copleting the steps above, go to your project folder and enter `node index.js`. This will run the bot. If everything is working, you should see `Successful Login` followed by `My username is 'XXXX'` (where XXXX is the username of the bot). 
+- After copleting the steps above, go to your project folder and enter `node index.js`. This will run the bot. If everything is working, you should see `Successful Login` followed by `My username is 'XXXX'` (where `XXXX` is the username of the bot). 
 - You might have to fiddle with the code or install some extra dependencies depending on your system. 
 
 ## TODO
